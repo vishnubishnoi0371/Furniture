@@ -4,9 +4,9 @@ import Samebtn from "./Samebtn";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const My_nav = () => {
-    useEffect(() => {
-      AOS.init({ once: true });
-    }, []);
+  useEffect(() => {
+    AOS.init({ once: true });
+  }, []);
   const [first, setfirst] = useState(false);
   function view() {
     setfirst(!first);
@@ -64,8 +64,11 @@ const My_nav = () => {
               </div>
             </div>
           </div>
-          <div  data-aos="zoom-in"
-              data-aos-duration="2000" className="flex flex-col justify-center items-center h-[450px] sm:h-[385px] lg:h-[580px] xl:h-[620px]">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="3500"
+            className="flex flex-col justify-center items-center h-[450px] sm:h-[385px] lg:h-[580px] xl:h-[620px]"
+          >
             <p className="font-ff-pop font-bold not-italic max-w-[908px] text-center md:leading-normal text-white text-3xl sm:text-5xl">
               Awesome Design Best Furniture For Your Interior
             </p>

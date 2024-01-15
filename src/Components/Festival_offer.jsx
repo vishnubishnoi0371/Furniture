@@ -29,11 +29,10 @@ const Festival_offer = () => {
                   <p className="text-lg font-normal font-ff-pop not-italic leading-normal text-black max-w-[262px] pb-[38px]">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit
                   </p>
-                  <Same_btn_2 text=" ADD TO CART" />
 
-                  {/* <button className="text-xl py-[10px] px-[12px] bg-[#BD7D41] text-white font-medium font-ff-pop not-italic text-center leading-normal">
+                  <button className="text-xl shadow-[inset_18rem_0_0_0_#BD7D41] hover:shadow-[inset_0_0_0_0]  duration-500  border-[1px] border-[#BD7D41] py-[10px] px-[12px] bg-[#BD7D41] text-white font-medium font-ff-pop not-italic text-center leading-normal">
                     ADD TO CART
-                  </button> */}
+                  </button>
                 </div>
               </div>
             </div>
@@ -56,13 +55,10 @@ const Festival_offer = () => {
                   <p className="text-lg font-normal font-ff-pop not-italic leading-normal text-black max-w-[262px] pb-[38px]">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit
                   </p>
-                  {/* <span>
-                    <Samebtn className="!px-3 !py-2" text="VIEW ALL PRODUCT" />
-                  </span> */}
-                  <Same_btn_2 text=" ADD TO CART" />
-                  {/* <button className="text-xl py-[10px] px-[12px] bg-[#BD7D41] text-white font-medium font-ff-pop not-italic text-center leading-normal">
+
+                  <button className="text-xl shadow-[inset_18rem_0_0_0_#BD7D41] hover:shadow-[inset_0_0_0_0]  duration-500  border-[1px] border-[#BD7D41] py-[10px] px-[12px] bg-[#BD7D41] text-white font-medium font-ff-pop not-italic text-center leading-normal">
                     ADD TO CART
-                  </button> */}
+                  </button>
                 </div>
               </div>
             </div>

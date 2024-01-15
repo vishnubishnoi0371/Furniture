@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import deal2 from "../Assets/Images/deal_2.png";
+import deal1 from "../Assets/Images/dell1.png";
 import deal3 from "../Assets/Images/deal_3.png";
 import { Arrow_1, Arrow_2, Star } from "../Common_svg/icon";
 import AOS from "aos";
@@ -77,7 +78,7 @@ const Latest_deal = () => {
               className=" px-[23px] py-[18px]  bg-[#fff] hover:shadow-crd_sh_1 duration-500 mt-4 mx-1 mb-10"
             >
               <div className=" w-full">
-                <img className="w-full overflow-hidden" src={deal2} alt="" />
+                <img className="w-full overflow-hidden" src={deal1} alt="" />
               </div>
               <div className="flex justify-between pt-[19px] items-center">
                 <p className="font-ff-pop text-nowrap font-medium text-[#000] leading-normal not-italic text-xl ">
@@ -95,9 +96,9 @@ const Latest_deal = () => {
                 <p className=" font-ff-pop text-nowrap font-semibold text-[#000] leading-normal text-[24px] xl:text-[28.6px] not-italic ">
                   ₹1200.00{" "}
                 </p>
-                <div className=" py-[10px] px-[10px] text-base text-nowrap md:text-xl lg:text-lg xl:text-xl font-ff-pop font-medium text-white bg-[#BD7D41] not-italic leadin-normal text-center ">
+                <button className=" py-[10px] px-[10px] shadow-[inset_18rem_0_0_0_#BD7D41] hover:shadow-[inset_0_0_0_0]  duration-500  border-[1px] border-[#BD7D41] text-base text-nowrap md:text-xl lg:text-lg xl:text-xl font-ff-pop font-medium text-white bg-[#BD7D41] not-italic leadin-normal text-center ">
                   ADD TO CART{" "}
-                </div>
+                </button>
               </div>
             </div>
           </div>
@@ -126,9 +127,9 @@ const Latest_deal = () => {
                 <p className=" font-ff-pop text-nowrap font-semibold text-[#000] leading-normal text-[24px] xl:text-[28.6px] not-italic ">
                   ₹1200.00{" "}
                 </p>
-                <div className=" py-[10px] px-[10px] text-base text-nowrap md:text-xl lg:text-lg xl:text-xl font-ff-pop font-medium text-white bg-[#BD7D41] not-italic leadin-normal text-center ">
+                <button className=" py-[10px] shadow-[inset_18rem_0_0_0_#BD7D41] hover:shadow-[inset_0_0_0_0]  duration-500  border-[1px] border-[#BD7D41] px-[10px] text-base text-nowrap md:text-xl lg:text-lg xl:text-xl font-ff-pop font-medium text-white bg-[#BD7D41] not-italic leadin-normal text-center ">
                   ADD TO CART{" "}
-                </div>
+                </button>
               </div>
             </div>
           </div>
@@ -157,9 +158,40 @@ const Latest_deal = () => {
                 <p className=" font-ff-pop text-nowrap font-semibold text-[#000] leading-normal text-[24px] xl:text-[28.6px] not-italic ">
                   ₹1200.00{" "}
                 </p>
-                <div className=" py-[10px] px-[10px] text-base text-nowrap md:text-xl lg:text-lg xl:text-xl font-ff-pop font-medium text-white bg-[#BD7D41] not-italic leadin-normal text-center ">
+                <button className=" py-[10px] shadow-[inset_18rem_0_0_0_#BD7D41] hover:shadow-[inset_0_0_0_0]  duration-500  border-[1px] border-[#BD7D41] px-[10px] text-base text-nowrap md:text-xl lg:text-lg xl:text-xl font-ff-pop font-medium text-white bg-[#BD7D41] not-italic leadin-normal text-center ">
                   ADD TO CART{" "}
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              data-aos="zoom-out"
+              data-aos-duration="2000"
+              className=" px-[23px] py-[18px]  bg-[#fff] hover:shadow-crd_sh_1 duration-500 mt-4 mx-1 mb-10"
+            >
+              <div className=" w-full">
+                <img className="w-full" src={deal1} alt="" />
+              </div>
+              <div className="flex justify-between pt-[19px] items-center">
+                <p className="font-ff-pop text-nowrap font-medium text-[#000] leading-normal not-italic text-xl ">
+                  Best Guide
+                </p>
+                <div>
+                  <Star />
                 </div>
+              </div>
+
+              <div className="py-[16px] text-base font-normal font-ff-pop leading-[24px] not-italic text-[#5b5d6f]  self-stretch pb-[15px]  sm:pb-[32px] ">
+                Lorem ipsum dolor{" "}
+              </div>
+              <div className="flex justify-between items-center md:pb-4">
+                <p className=" font-ff-pop text-nowrap font-semibold text-[#000] leading-normal text-[24px] xl:text-[28.6px] not-italic ">
+                  ₹1200.00{" "}
+                </p>
+                <button className=" py-[10px] shadow-[inset_18rem_0_0_0_#BD7D41] hover:shadow-[inset_0_0_0_0]  duration-500  border-[1px] border-[#BD7D41] px-[10px] text-base text-nowrap md:text-xl lg:text-lg xl:text-xl font-ff-pop font-medium text-white bg-[#BD7D41] not-italic leadin-normal text-center ">
+                  ADD TO CART{" "}
+                </button>
               </div>
             </div>
           </div>
@@ -188,40 +220,9 @@ const Latest_deal = () => {
                 <p className=" font-ff-pop text-nowrap font-semibold text-[#000] leading-normal text-[24px] xl:text-[28.6px] not-italic ">
                   ₹1200.00{" "}
                 </p>
-                <div className=" py-[10px] px-[10px] text-base text-nowrap md:text-xl lg:text-lg xl:text-xl font-ff-pop font-medium text-white bg-[#BD7D41] not-italic leadin-normal text-center ">
+                <button className=" py-[10px] shadow-[inset_18rem_0_0_0_#BD7D41] hover:shadow-[inset_0_0_0_0]  duration-500  border-[1px] border-[#BD7D41] px-[10px] text-base text-nowrap md:text-xl lg:text-lg xl:text-xl font-ff-pop font-medium text-white bg-[#BD7D41] not-italic leadin-normal text-center ">
                   ADD TO CART{" "}
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div
-              data-aos="zoom-out"
-              data-aos-duration="2000"
-              className=" px-[23px] py-[18px]  bg-[#fff] hover:shadow-crd_sh_1 duration-500 mt-4 mx-1 mb-10"
-            >
-              <div className=" w-full">
-                <img className="w-full" src={deal2} alt="" />
-              </div>
-              <div className="flex justify-between pt-[19px] items-center">
-                <p className="font-ff-pop text-nowrap font-medium text-[#000] leading-normal not-italic text-xl ">
-                  Best Guide
-                </p>
-                <div>
-                  <Star />
-                </div>
-              </div>
-
-              <div className="py-[16px] text-base font-normal font-ff-pop leading-[24px] not-italic text-[#5b5d6f]  self-stretch pb-[15px]  sm:pb-[32px] ">
-                Lorem ipsum dolor{" "}
-              </div>
-              <div className="flex justify-between items-center md:pb-4">
-                <p className=" font-ff-pop text-nowrap font-semibold text-[#000] leading-normal text-[24px] xl:text-[28.6px] not-italic ">
-                  ₹1200.00{" "}
-                </p>
-                <div className=" py-[10px] px-[10px] text-base text-nowrap md:text-xl lg:text-lg xl:text-xl font-ff-pop font-medium text-white bg-[#BD7D41] not-italic leadin-normal text-center ">
-                  ADD TO CART{" "}
-                </div>
+                </button>
               </div>
             </div>
           </div>
@@ -250,40 +251,9 @@ const Latest_deal = () => {
                 <p className=" font-ff-pop text-nowrap font-semibold text-[#000] leading-normal text-[24px] xl:text-[28.6px] not-italic ">
                   ₹1200.00{" "}
                 </p>
-                <div className=" py-[10px] px-[10px] text-base text-nowrap md:text-xl lg:text-lg xl:text-xl font-ff-pop font-medium text-white bg-[#BD7D41] not-italic leadin-normal text-center ">
+                <button className=" py-[10px] shadow-[inset_18rem_0_0_0_#BD7D41] hover:shadow-[inset_0_0_0_0]  duration-500  border-[1px] border-[#BD7D41] px-[10px] text-base text-nowrap md:text-xl lg:text-lg xl:text-xl font-ff-pop font-medium text-white bg-[#BD7D41] not-italic leadin-normal text-center ">
                   ADD TO CART{" "}
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div
-              data-aos="zoom-out"
-              data-aos-duration="2000"
-              className=" px-[23px] py-[18px]  bg-[#fff] hover:shadow-crd_sh_1 duration-500 mt-4 mx-1 mb-10"
-            >
-              <div className=" w-full">
-                <img className="w-full" src={deal2} alt="" />
-              </div>
-              <div className="flex justify-between pt-[19px] items-center">
-                <p className="font-ff-pop text-nowrap font-medium text-[#000] leading-normal not-italic text-xl ">
-                  Best Guide
-                </p>
-                <div>
-                  <Star />
-                </div>
-              </div>
-
-              <div className="py-[16px] text-base font-normal font-ff-pop leading-[24px] not-italic text-[#5b5d6f]  self-stretch pb-[15px]  sm:pb-[32px] ">
-                Lorem ipsum dolor{" "}
-              </div>
-              <div className="flex justify-between items-center md:pb-4">
-                <p className=" font-ff-pop text-nowrap font-semibold text-[#000] leading-normal text-[24px] xl:text-[28.6px] not-italic ">
-                  ₹1200.00{" "}
-                </p>
-                <div className=" py-[10px] px-[10px] text-base text-nowrap md:text-xl lg:text-lg xl:text-xl font-ff-pop font-medium text-white bg-[#BD7D41] not-italic leadin-normal text-center ">
-                  ADD TO CART{" "}
-                </div>
+                </button>
               </div>
             </div>
           </div>

@@ -27,7 +27,7 @@ const Preload = () => {
   return (
     <div>
       <div
-        className="preloader min-h-full z-50 min-w-full flex items-center justify-center  bg-black fixed top-0 start-0"
+        className="preloader min-h-full z-50 min-w-full flex items-center justify-center  bg-gradient-to-r from-[#243040] to-[#8C939B] fixed top-0 start-0"
         style={{ display: Load ? "none" : "block", zIndex: 80 }}
       >
         <div class="waviy flex justify-center items-center m-auto h-screen">

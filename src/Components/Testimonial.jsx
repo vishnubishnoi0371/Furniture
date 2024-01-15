@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-fade";
@@ -72,11 +72,12 @@ const Testimonial = () => {
   return (
     <div className="mx-auto px-3 max-w-[1320px] md:pt-[30px]">
       <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start  gap-2">
-                <span className="w-[95px] h-[1px] bg-black"></span>
-                <p className="text-xl font-ff-pop font-normal not-italic leading-normal text-[#BD7D41]">
-                Customer Says                </p>
-              </div>
-      <h2 className="text-[#243040] text-2xl sm:text-3xl lg:text-[35px] font-Poppins font-bold max-w-[436px] mt-3 leading-normal">
+        <span className="w-[95px] h-[1px] bg-black"></span>
+        <p className="text-xl font-ff-pop font-normal not-italic leading-normal text-[#BD7D41]">
+          Customer Says{" "}
+        </p>
+      </div>
+      <h2 className="text-[#243040] text-center sm:text-start text-2xl sm:text-3xl lg:text-[35px] font-Poppins font-bold max-w-[436px] mt-3 leading-normal">
         Testimonial
       </h2>
       <div className="mt-[51px] mb-12 sm:mb-16 md:mb-20 lg:mb-[109px]">
@@ -85,7 +86,7 @@ const Testimonial = () => {
             loop={true}
             spaceBetween={55}
             breakpoints={{
-              400: { slidesPerView: 2 },
+              300: { slidesPerView: 2 },
               450: { slidesPerView: 3 },
               700: { slidesPerView: 5 },
               1024: { slidesPerView: 7 },

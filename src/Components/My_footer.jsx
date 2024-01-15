@@ -31,15 +31,27 @@ const My_footer = () => {
                 sapien.
               </p>
               <div className="gap-3 flex items-center">
-                <span className="cursor-pointer  duration-500 hover:translate-y-[-20%]    ">
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  className="cursor-pointer  duration-500 hover:translate-y-[-20%]    "
+                >
                   <Insta />
-                </span>
-                <span className="w-[30px]  duration-500 hover:translate-y-[-20%]     cursor-pointer h-[30px] rounded-full bg-transparent border-[1px] border-white flex justify-center items-center">
+                </a>
+                <a
+                  href="https://twitter.com/i/flow/login"
+                  target="_blank"
+                  className="w-[30px]  duration-500 hover:translate-y-[-20%]     cursor-pointer h-[30px] rounded-full bg-transparent border-[1px] border-white flex justify-center items-center"
+                >
                   <Twiter />
-                </span>
-                <span className="w-[30px]  duration-500 hover:translate-y-[-20%]     cursor-pointer h-[30px] rounded-full bg-transparent border-[1px] border-white flex justify-center items-center">
+                </a>
+                <a
+                  href="https://www.facebook.com/login/"
+                  target="_blank"
+                  className="w-[30px]  duration-500 hover:translate-y-[-20%]     cursor-pointer h-[30px] rounded-full bg-transparent border-[1px] border-white flex justify-center items-center"
+                >
                   <Facebook />
-                </span>
+                </a>
               </div>
             </div>
             <div className=" sm:w-1/2 w-full px-3">
@@ -100,9 +112,9 @@ const My_footer = () => {
                   data-aos-duration="2000"
                   className="w-1/2 xxs:w-1/3  px-3"
                 >
-                  <p className="text-white text-[14px] font-medium font-ff-rob not-italic leading-normal uppercase before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0 relative">
+                  <li className="text-white list-none text-[14px] font-medium font-ff-rob not-italic leading-normal uppercase before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0 relative">
                     BRANDS{" "}
-                  </p>
+                  </li>
                   <ul className="ps-0 pt-3  md:pt-[19px]">
                     <li className="md:pb-[13px]">
                       <a
