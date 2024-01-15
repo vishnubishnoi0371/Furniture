@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+* {
+  scroll-behavior: smooth;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav_set {
+  width: 100%;
+  height: 100%;
+  position: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  top: 0;
+  right: 100%;
+  background: #505c6a;
+  z-index: 5;
+}
+/* Loader */
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+  font-size: 40px;
+}
+.waviy span {
+  font-family: "Alfa Slab One", cursive;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+.sliderbutton .slick-slider {
+  position: static !important;
+}
+@keyframes waviy {
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
 }
 
-.App-link {
-  color: #61dafb;
+@media (min-width: 540px) {
+  .nav_svg {
+    width: 50px;
+    height: 50px;
+  }
 }
+@media (min-width: 768px) {
+  .nav_svg {
+    width: 61px !important;
+    height: 61px !important;
+  }
+  .waviy {
+    font-size: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  .nav_set {
+    width: unset;
+    flex-direction: row;
+    height: unset;
+    position: unset;
+    background: transparent;
+    transition: all 350ms linear !important;
+  }
+}
+.nav_svg {
+  width: 35px;
+  height: 35px;
+}
+.star_svg {
+  width: 90%;
+}
+/* btnhvr */
+/* .buttonBox {
+  margin: 0 20px 40px;
+  position: relative;
+  max-width: 200px;
+  min-width: 150px;
+  flex: 20%;
+}
+#fifth {
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0);
+  transition: all 0.3s ease-in-out;
+} */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* button{
+  width:100%;
+  height:80px;
+  position:relative;
+  background:rgba(255, 255, 255, .27);
+  text-transform:uppercase;
+  color:white;
+  font-weight:700;
+  letter-spacing:1px;
+  border:none;
+  font-size:15px;
+  outline:none;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  cursor: pointer;
+} */
+/* #fifth:before {
+  content: " ";
+  display: block;
+  width: 200px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  top: -10px;
+  left: -200px;
+  transform: rotate(-95deg);
+  transition: all 0.1s ease-in-out;
+} */
+
+/* #fifth:hover:before{
+  margin-left:300%;
+} */
