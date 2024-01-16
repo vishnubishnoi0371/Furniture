@@ -215,7 +215,7 @@ const My_footer = () => {
         </div>
         <hr className="bg-[#91979f] h-[1px]" />
         <p className="font-ff-rob font-normal text-[14px] text-white not-italic leading-normal text-center py-3 lg:py-[28px]">
-          @copyright2021
+          @copyright2024
         </p>
       </div>
     </div>

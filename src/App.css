@@ -32,6 +32,19 @@
 .sliderbutton .slick-slider {
   position: static !important;
 }
+.nav_svg {
+  width: 35px;
+  height: 35px;
+}
+.star_svg {
+  width: 90%;
+}
+.swiper-slide {
+  margin-left: 10px !important;
+}
+.stroke:hover {
+  -webkit-text-stroke: 0.4px #fff;
+}
 @keyframes waviy {
   0%,
   40%,
@@ -70,14 +83,4 @@
     background: transparent;
     transition: all 350ms linear !important;
   }
-}
-.nav_svg {
-  width: 35px;
-  height: 35px;
-}
-.star_svg {
-  width: 90%;
-}
-.swiper-slide {
-  margin-left: 10px !important;
 }

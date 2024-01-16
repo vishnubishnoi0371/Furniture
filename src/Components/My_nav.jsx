@@ -35,16 +35,16 @@ const My_nav = () => {
                   first ? "left-0" : "left-[-100%]"
                 } flex items-center fixed z-40  ps-0 gap-[55px] duration-500   nav_set`}
               >
-                <li className="list-none uppercase cursor-pointer text-white text-lg font-normal font-ff-rob leading-normal not-italic relative before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500 duration-500  before:h-[2px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0 ">
+                <li className="list-none rounded-[3px] uppercase cursor-pointer text-white text-lg font-normal font-ff-rob leading-normal not-italic relative before:absolute before:w-0 before:-bottom-2 stroke  before:right-full before:duration-500 duration-500  before:h-[3px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0 ">
                   <a href="#locatio">Home</a>
                 </li>
-                <li className="list-none uppercase cursor-pointer text-white text-lg font-normal font-ff-rob leading-normal not-italic relative before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500 duration-500  before:h-[2px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0 ">
+                <li className="list-none rounded-[3px] uppercase cursor-pointer text-white text-lg font-normal font-ff-rob leading-normal not-italic relative before:absolute before:w-0 before:-bottom-2 stroke  before:right-full before:duration-500 duration-500  before:h-[3px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0 ">
                   <a href="#schdul">About us</a>
                 </li>
-                <li className="list-none uppercase cursor-pointer text-white text-lg font-normal font-ff-rob leading-normal not-italic relative before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500 duration-500  before:h-[2px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0 ">
+                <li className="list-none rounded-[3px] uppercase cursor-pointer text-white text-lg font-normal font-ff-rob leading-normal not-italic relative before:absolute before:w-0 before:-bottom-2 stroke  before:right-full before:duration-500 duration-500  before:h-[3px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0 ">
                   <a href="#Ticke">Shop</a>
                 </li>
-                <li className="list-none cursor-pointer uppercase text-white text-lg font-normal font-ff-rob leading-normal not-italic relative before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500 duration-500  before:h-[2px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0">
+                <li className="list-none rounded-[3px] cursor-pointer uppercase text-white text-lg font-normal font-ff-rob leading-normal not-italic relative before:absolute before:w-0 before:-bottom-2 stroke  before:right-full before:duration-500 duration-500  before:h-[3px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0">
                   <a href="#memoris">Contact us</a>
                 </li>
               </ul>
