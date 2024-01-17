@@ -16,7 +16,7 @@ const Festival_offer = () => {
             data-aos-duration="2000"
             className=" sm:w-1/2 w-full px-3 relative"
           >
-            <div className="bg-[url('./Assets/Images/offer_1.png')]  bg-no-repeat md:bg-100%  bg-center   w-full object-cover overflow-hidden">
+            <div className="bg-[url('./Assets/Images/offer_1.webp')]  bg-no-repeat md:bg-100%  bg-center   w-full object-cover overflow-hidden">
               <div className="pt-[32px] pb-[70px] lg:flex items-start gap-2  ps-6 lg:ps-0">
                 <span className="w-[95px] h-[1px] bg-black mt-3"></span>
                 <div>
@@ -42,7 +42,7 @@ const Festival_offer = () => {
             data-aos-duration="2000"
             className=" sm:w-1/2 w-full px-3 pt-6 sm:pt-0"
           >
-            <div className="bg-[url('./Assets/Images/offer_2.png')]   bg-no-repeat md:bg-100% bg-center  w-full  object-cover overflow-hidden">
+            <div className="bg-[url('./Assets/Images/offer_2.webp')]   bg-no-repeat md:bg-100% bg-center bg-cover  w-full  object-cover overflow-hidden">
               <div className="pt-[32px] pb-[70px] lg:flex items-start gap-2 ps-6 lg:ps-0">
                 <span className="w-[95px] h-[1px] bg-[#000] mt-3"></span>
                 <div>

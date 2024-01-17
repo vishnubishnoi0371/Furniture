@@ -4,13 +4,13 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/thumbs";
 import { Controller, EffectFade, Thumbs } from "swiper/modules";
-import image1 from "../Assets/Images/test1.png";
-import image2 from "../Assets/Images/test-2.png";
-import image3 from "../Assets/Images/test3.png";
-import image4 from "../Assets/Images/test4.png";
-import image5 from "../Assets/Images/test5.png";
-import image6 from "../Assets/Images/test6.png";
-import image7 from "../Assets/Images/test7.png";
+import image1 from "../Assets/Images/test1.webp";
+import image2 from "../Assets/Images/test-2.webp";
+import image3 from "../Assets/Images/test3.webp";
+import image4 from "../Assets/Images/test4.webp";
+import image5 from "../Assets/Images/test5.webp";
+import image6 from "../Assets/Images/test6.webp";
+import image7 from "../Assets/Images/test7.webp";
 const Testimonial = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const TestimonialData = [

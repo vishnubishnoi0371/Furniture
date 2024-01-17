@@ -1,6 +1,11 @@
 export const Nav_icon = () => {
   return (
-    <svg viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg
+      className="w-[35px] h-[35px] xxs:w-[50px] xxs:h-[50px] md:w-[61px] md:h-[61px]"
+      viewBox="0 0 61 61"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         fill-rule="evenodd"
         clip-rule="evenodd"
@@ -178,6 +183,7 @@ export const Video_icon = () => {
 export const Arrow_11 = () => {
   return (
     <svg
+      className="hover:bg-[#BD7D41] fill-black duration-300"
       width="21"
       height="8"
       viewBox="0 0 21 8"
@@ -194,6 +200,7 @@ export const Arrow_11 = () => {
 export const Arrow_22 = () => {
   return (
     <svg
+      className="hover:bg-[#BD7D41] fill-black duration-300"
       xmlns="http://www.w3.org/2000/svg"
       width="21"
       height="8"
@@ -210,9 +217,8 @@ export const Arrow_22 = () => {
 export const Arrow_1 = () => {
   return (
     <svg
+      className="md:w-[42px] md:h-[16px] w-[25px] h-[12px]"
       xmlns="http://www.w3.org/2000/svg"
-      width="42"
-      height="16"
       viewBox="0 0 42 16"
       fill="none"
     >
@@ -226,9 +232,8 @@ export const Arrow_1 = () => {
 export const Arrow_2 = () => {
   return (
     <svg
+      className="md:w-[42px] md:h-[16px] w-[25px] h-[12px]"
       xmlns="http://www.w3.org/2000/svg"
-      width="42"
-      height="16"
       viewBox="0 0 42 16"
       fill="none"
     >

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import sofa from "../Assets/Images/story_image_1.png";
+import sofa from "../Assets/Images/story_image_1.webp";
 import Samebtn from "./Samebtn";
 import { Video_icon } from "../Common_svg/icon";
 import AOS from "aos";
@@ -11,7 +11,7 @@ const Ourstory = () => {
   return (
     <div>
       <div className="max-w-[1340px]  px-3 mx-auto py-[67px] overflow-hidden">
-        <div className="flex flex-row items-center justify-center flex-wrap md:pb-[50px]  -mx-3 ">
+        <div className="flex flex-row items-center justify-center flex-wrap lg:pb-[50px]  -mx-3 ">
           <div className=" 910:w-1/2 px-3">
             <div
               data-aos="fade-right"

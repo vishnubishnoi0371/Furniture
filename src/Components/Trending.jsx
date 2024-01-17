@@ -5,16 +5,16 @@ import "aos/dist/aos.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Star } from "../Common_svg/icon";
-import trend1 from "../Assets/Images/trend1.png";
-import trend2 from "../Assets/Images/trend2.png";
-import trend3 from "../Assets/Images/trend3.png";
-import trend4 from "../Assets/Images/cuttimg.png";
+import trend1 from "../Assets/Images/trend1.webp";
+import trend2 from "../Assets/Images/trend2.webp";
+import trend3 from "../Assets/Images/trend3.webp";
+import trend4 from "../Assets/Images/cuttimg.webp";
 import { Arrow_11, Arrow_22 } from "../Common_svg/icon";
 
 const CustomPrev1Arrow = ({ onClick }) => (
   <button
     onClick={onClick}
-    className="w-[44px] h-[44px] rounded-[10px] duration-300 flex items-center justify-center  bg-[#fff]  absolute  left-[38%] 910:left-[0%] bottom-[-10%] 910:bottom-0 xl:bottom-[5%] lg1500:bottom-[15%]"
+    className="w-[44px] h-[44px] rounded-[10px] duration-500 hover:bg-[#BD7D41] flex items-center justify-center  bg-[#fff]  absolute  left-[38%] 910:left-[0%] bottom-[-10%] 910:bottom-0 xl:bottom-[5%] lg1500:bottom-[15%]"
   >
     <Arrow_11 />
   </button>
@@ -23,7 +23,7 @@ const CustomPrev1Arrow = ({ onClick }) => (
 const CustomNxtArrow = ({ onClick }) => (
   <button
     onClick={onClick}
-    className="w-[44px] h-[44px] rounded-[10px] bg-[#fff] flex items-center justify-center duration-300  absolute left-[55%] xs450px:left-[49%] 910:left-[7%] xl:left-[4%] bottom-[-10%] 910:bottom-0 xl:bottom-[5%] lg1500:bottom-[15%]"
+    className="w-[44px] h-[44px] rounded-[10px] bg-[#fff] flex items-center justify-center duration-500 hover:bg-[#BD7D41]  absolute left-[55%] xs450px:left-[49%] 910:left-[7%] xl:left-[4%] bottom-[-10%] 910:bottom-0 xl:bottom-[5%] lg1500:bottom-[15%]"
   >
     <Arrow_22 />
   </button>

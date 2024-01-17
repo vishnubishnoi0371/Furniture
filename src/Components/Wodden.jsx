@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import woodensofa from "../Assets/Images/wooden-sofa.png";
+import woodensofa from "../Assets/Images/wooden-sofa.webp";
 import Samebtn from "./Samebtn";
 import AOS from "aos";
 import "aos/dist/aos.css";

@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import Samebtn from "./Samebtn";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 const My_nav = () => {
   useEffect(() => {
     AOS.init({ once: true });
@@ -18,7 +19,7 @@ const My_nav = () => {
   }
   return (
     <div className="sm:pb-[67px]">
-      <div className="bg-[url('./Assets/Images/bg_hero.png')]  bg-no-repeat md:bg-100% h-[600px] md:h-[810px] bg-cover bg-right lg:h-[930px]  overflow-hidden">
+      <div className="bg-[url('./Assets/Images/bg_hero.webp')]  bg-no-repeat md:bg-100% h-[600px] md:h-[810px] bg-cover bg-right lg:h-[930px]  overflow-hidden">
         <div className="max-w-[1340px] relative px-3 mx-auto ">
           <div className="flex justify-between py-[20px]">
             <div className="flex items-center cursor-pointer gap-[7px]">
@@ -33,20 +34,26 @@ const My_nav = () => {
               <ul
                 className={`${
                   first ? "left-0" : "left-[-100%]"
-                } flex items-center fixed z-40  ps-0 gap-[55px] duration-500   nav_set`}
+                } flex flex-col fixed items-center z-10 justify-center top-0 right-full bg-[#505c6a] lg:w-[unset] lg:flex-row lg:h-[unset] lg:bg-transparent duration-300   ps-0 gap-[55px]  w-full h-full   nav_set`}
               >
-                <li className="list-none rounded-[3px] uppercase cursor-pointer text-white text-lg font-normal font-ff-rob leading-normal not-italic relative before:absolute before:w-0 before:-bottom-2 stroke  before:right-full before:duration-500 duration-500  before:h-[3px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0 ">
+                <Link onClick={view}
+                  to="/"
+                  className="list-none rounded-[3px] uppercase cursor-pointer text-white text-lg font-normal font-ff-rob leading-normal not-italic relative before:absolute before:w-0 before:-bottom-2 stroke  before:right-full before:duration-500 duration-500  before:h-[3px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0 "
+                >
                   <a href="#locatio">Home</a>
-                </li>
-                <li className="list-none rounded-[3px] uppercase cursor-pointer text-white text-lg font-normal font-ff-rob leading-normal not-italic relative before:absolute before:w-0 before:-bottom-2 stroke  before:right-full before:duration-500 duration-500  before:h-[3px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0 ">
+                </Link>
+                <Link onClick={view}
+                  to="/about"
+                  className="list-none rounded-[3px] uppercase cursor-pointer text-white text-lg font-normal font-ff-rob leading-normal not-italic relative before:absolute before:w-0 before:-bottom-2 stroke  before:right-full before:duration-500 duration-500  before:h-[3px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0 "
+                >
                   <a href="#schdul">About us</a>
-                </li>
-                <li className="list-none rounded-[3px] uppercase cursor-pointer text-white text-lg font-normal font-ff-rob leading-normal not-italic relative before:absolute before:w-0 before:-bottom-2 stroke  before:right-full before:duration-500 duration-500  before:h-[3px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0 ">
+                </Link>
+                <Link onClick={view} to='/shop' className="list-none rounded-[3px] uppercase cursor-pointer text-white text-lg font-normal font-ff-rob leading-normal not-italic relative before:absolute before:w-0 before:-bottom-2 stroke  before:right-full before:duration-500 duration-500  before:h-[3px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0 ">
                   <a href="#Ticke">Shop</a>
-                </li>
-                <li className="list-none rounded-[3px] cursor-pointer uppercase text-white text-lg font-normal font-ff-rob leading-normal not-italic relative before:absolute before:w-0 before:-bottom-2 stroke  before:right-full before:duration-500 duration-500  before:h-[3px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0">
+                </Link>
+                <Link onClick={view} to='/contact' className="list-none rounded-[3px] cursor-pointer uppercase text-white text-lg font-normal font-ff-rob leading-normal not-italic relative before:absolute before:w-0 before:-bottom-2 stroke  before:right-full before:duration-500 duration-500  before:h-[3px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0">
                   <a href="#memoris">Contact us</a>
-                </li>
+                </Link>
               </ul>
               <div className="flex relative items-center gap-[15px] md:gap-[28px]">
                 <a href="#">

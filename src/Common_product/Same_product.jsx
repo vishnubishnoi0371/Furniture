@@ -1,15 +1,12 @@
 import { Star } from "../Common_svg/icon";
-import sofa1 from "../Assets/Images/sofa_1.png";
-import sofa2 from "../Assets/Images/sofa_2.png";
-import sofa3 from "../Assets/Images/sofa_3.png";
-import sofa4 from "../Assets/Images/sofa_4.png";
-import sofa5 from "../Assets/Images/sofa_5.png";
-import sofa6 from "../Assets/Images/sofa_6.png";
+import sofa1 from "../Assets/Images/sofa_1.webp";
+import sofa2 from "../Assets/Images/sofa_2.webp";
+import sofa3 from "../Assets/Images/sofa_3.webp";
+import sofa4 from "../Assets/Images/sofa_4.webp";
+import sofa5 from "../Assets/Images/sofa_5.webp";
+import sofa6 from "../Assets/Images/sofa_6.webp";
 
 export const mycard = [
-
-
-
   {
     img: sofa1,
     svg: <Star />,

@@ -2,16 +2,16 @@ import React, { useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import deal2 from "../Assets/Images/deal_2.png";
-import deal1 from "../Assets/Images/dell1.png";
-import deal3 from "../Assets/Images/deal_3.png";
+import deal2 from "../Assets/Images/deal_2.webp";
+import deal1 from "../Assets/Images/dell1.webp";
+import deal3 from "../Assets/Images/deal_3.webp";
 import { Arrow_1, Arrow_2, Star } from "../Common_svg/icon";
 import AOS from "aos";
 import "aos/dist/aos.css";
 const CustomPrevArrow = ({ onClick }) => (
   <button
     onClick={onClick}
-    className="w-[70px] overflow-visible mb-2 h-[70px] 2xl:w-[99px] 2xl:h-[99px] rounded-full duration-300 flex items-center justify-center sliderbutton bg-[#fff] shadow-crd_sh_1 absolute bottom-[-10%] sm:bottom-[-10%]  lg:bottom-[-10%] left-[10%] sm:left-[30%]  lg:left-7  2xl:bottom-[38%] 2xl:left-[-10%]"
+    className="w-[50px] overflow-visible mb-2 h-[50px] 2xl:w-[99px] 2xl:h-[99px] rounded-full duration-500 hover:bg-[#BD7D41] flex items-center justify-center sliderbutton bg-[#fff] shadow-crd_sh_1 absolute bottom-[-10%] sm:bottom-[-10%]  lg:bottom-[-10%] left-[10%] sm:left-[30%]  lg:left-7  2xl:bottom-[38%] 2xl:left-[-10%]"
   >
     <Arrow_1 />
   </button>
@@ -20,7 +20,7 @@ const CustomPrevArrow = ({ onClick }) => (
 const CustomNextArrow = ({ onClick }) => (
   <button
     onClick={onClick}
-    className="w-[70px] overflow-visible mb-2 h-[70px] 2xl:w-[99px] 2xl:h-[99px] rounded-full bg-[#fff] flex items-center justify-center duration-300 sliderbutton shadow-crd_sh_1 absolute bottom-[-10%] sm:bottom-[-10%]  lg:bottom-[-10%]  right-[10%] sm:right-[30%]  lg:right-6  2xl:bottom-[38%] 2xl:right-[-10%]"
+    className="w-[50px] overflow-visible mb-2 h-[50px] 2xl:w-[99px] 2xl:h-[99px] rounded-full bg-[#fff] flex items-center justify-center duration-500 hover:bg-[#BD7D41] sliderbutton shadow-crd_sh_1 absolute bottom-[-10%] sm:bottom-[-10%]  lg:bottom-[-10%]  right-[10%] sm:right-[30%]  lg:right-6  2xl:bottom-[38%] 2xl:right-[-10%]"
   >
     <Arrow_2 />
   </button>

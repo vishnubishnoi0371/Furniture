@@ -1,47 +1,31 @@
 * {
   scroll-behavior: smooth;
 }
-.nav_set {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  top: 0;
-  right: 100%;
-  background: #505c6a;
-  z-index: 5;
+
+@media (min-width: 1024px) {
+  .nav_set {
+    position: unset;
+  }
 }
 /* Loader */
 .waviy {
-  position: relative;
   -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
-  font-size: 40px;
 }
 .waviy span {
   font-family: "Alfa Slab One", cursive;
-  position: relative;
-  display: inline-block;
-  color: #fff;
-  text-transform: uppercase;
   animation: waviy 1s infinite;
   animation-delay: calc(0.2s * var(--i));
 }
 .sliderbutton .slick-slider {
   position: static !important;
 }
-.nav_svg {
-  width: 35px;
-  height: 35px;
-}
+
 .star_svg {
   width: 90%;
 }
-.swiper-slide {
+/* .swiper-slide {
   margin-left: 10px !important;
-}
+} */
 .stroke:hover {
   -webkit-text-stroke: 0.4px #fff;
 }
@@ -55,32 +39,8 @@
     transform: translateY(-20px);
   }
 }
-
-@media (min-width: 540px) {
-  .nav_svg {
-    width: 50px;
-    height: 50px;
-  }
+/* @media (min-width: 540px) {
   .swiper-slide {
     margin-left: 0px !important;
   }
-}
-@media (min-width: 768px) {
-  .nav_svg {
-    width: 61px !important;
-    height: 61px !important;
-  }
-  .waviy {
-    font-size: 60px;
-  }
-}
-@media (min-width: 1024px) {
-  .nav_set {
-    width: unset;
-    flex-direction: row;
-    height: unset;
-    position: unset;
-    background: transparent;
-    transition: all 350ms linear !important;
-  }
-}
+} */
