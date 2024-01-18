@@ -112,9 +112,9 @@ const My_footer = () => {
                   data-aos-duration="2000"
                   className="w-1/2 xxs:w-1/3  px-3"
                 >
-                  <li className="text-white list-none text-[14px] font-medium font-ff-rob not-italic leading-normal uppercase before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0 relative">
-                    BRANDS{" "}
-                  </li>
+                  <p className="text-white list-none text-[14px] font-medium font-ff-rob not-italic leading-normal uppercase before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0 relative">
+                    BRANDS
+                  </p>
                   <ul className="ps-0 pt-3  md:pt-[19px]">
                     <li className="md:pb-[13px]">
                       <a

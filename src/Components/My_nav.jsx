@@ -105,9 +105,7 @@ const My_nav = () => {
                   </svg>
                 </span>
               </div>
-              {/* <a href="#">
-                  <Search />
-                </a> */}
+            
               <a href="#" className="pe-16">
                 <Search_2 />
               </a>

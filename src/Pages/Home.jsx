@@ -7,9 +7,9 @@ import Our_product from "../Components/Our_product";
 import Wodden from "../Components/Wodden";
 import Latest_deal from "../Components/Latest_deal";
 import Festival_offer from "../Components/Festival_offer";
-import Testimonial from "../Components/Testimonial";
 import My_footer from "../Components/My_footer";
 import Preload from "../Components/Preload";
+import Test from "../Components/Test";
 const Home = () => {
   return (
     <div>
@@ -22,7 +22,7 @@ const Home = () => {
       <Wodden />
       <Latest_deal />
       <Festival_offer />
-      <Testimonial />
+      <Test/>
       <My_footer />
     </div>
   );

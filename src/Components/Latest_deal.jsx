@@ -60,7 +60,7 @@ const Latest_deal = () => {
 
   return (
     <div className="xl:pt-[60px]">
-      <div className="max-w-[1340px]  px-3 mx-auto py-[50px] overflow-hidden ">
+      <div className="max-w-[1340px]  px-3 mx-auto py-[50px]  ">
         <div className="flex flex-col md:flex-row items-center justify-center 910:justify-start  gap-2 ">
           <span className="w-[95px] h-[1px] bg-black"></span>
           <p className="text-xl font-ff-pop font-normal not-italic leading-normal text-[#BD7D41]">
@@ -75,7 +75,7 @@ const Latest_deal = () => {
             <div
               data-aos="zoom-out"
               data-aos-duration="2000"
-              className=" px-[23px] py-[18px]  bg-[#fff] hover:shadow-crd_sh_1 duration-500 mt-4 mx-1 mb-10"
+              className=" px-[23px] py-[18px] overflow-hidden bg-[#fff] hover:shadow-crd_sh_1 duration-500 mt-4 mx-1 mb-10"
             >
               <div className=" w-full">
                 <img className="w-full overflow-hidden" src={deal1} alt="" />
