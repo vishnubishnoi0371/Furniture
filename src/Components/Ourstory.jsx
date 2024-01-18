@@ -1,15 +1,54 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import sofa from "../Assets/Images/story_image_1.webp";
 import Samebtn from "./Samebtn";
-import { Video_icon } from "../Common_svg/icon";
+import { Cross, Video_icon } from "../Common_svg/icon";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import vdo from "../Assets/video/video.mp4";
 const Ourstory = () => {
   useEffect(() => {
     AOS.init({ once: true });
   }, []);
+  const [modl, setmodl] = useState(false);
+  const open = () => {
+    setmodl(true);
+  };
+  const close = () => {
+    setmodl(false);
+  };
+  if (modl === true) {
+    document.body.classList.add("overflow-hidden");
+  } else {
+    document.body.classList.remove("overflow-hidden");
+  }
+  const [first, setFirst] = useState("tab1");
+  function tabs(tab) {
+    setFirst(tab);
+  }
   return (
     <div>
+      {modl && (
+        <div className="backdrop-blur-md flex justify-center items-center h-screen top-[0] w-screen fixed left-0 z-20 ">
+          <div className="md:max-w-[360px] ">
+            <div className={`${modl ? "" : ""} `}>
+              <div className="relative flex justify-center">
+                <video
+                  autoPlay
+                  loop
+                  className="h-[50%] w-[50%] lg:h-[100%] lg:w-[100%] object-cover"
+                  src={vdo}
+                ></video>
+                <button
+                  onClick={close}
+                  className="absolute fill-[#BD7D41] w-[26px] h-[26px] lg:w-[36px] lg:h-[36px] top-1 right-[26%] lg:right-1"
+                >
+                  <Cross />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
       <div className="max-w-[1340px]  px-3 mx-auto py-[67px] overflow-hidden">
         <div className="flex flex-row items-center justify-center flex-wrap lg:pb-[50px]  -mx-3 ">
           <div className=" 910:w-1/2 px-3">
@@ -30,7 +69,10 @@ const Ourstory = () => {
                     Explore Video
                   </p>
                   <span className="w-[66px] h-[1px] bg-[#243040]"></span>
-                  <div className="w-[45px] rounded-full h-[45px] flex justify-center items-center bg-[#BD7D41]">
+                  <div
+                    onClick={open}
+                    className="w-[45px] rounded-full h-[45px] flex justify-center items-center bg-[#BD7D41]"
+                  >
                     <Video_icon />
                   </div>
                 </div>

@@ -2,6 +2,11 @@
   scroll-behavior: smooth;
 }
 
+@media (max-width: 1024px) {
+  .overflow_hidden {
+    overflow: hidden;
+  }
+}
 @media (min-width: 1024px) {
   .nav_set {
     position: unset;
@@ -39,8 +44,3 @@
     transform: translateY(-20px);
   }
 }
-/* @media (min-width: 540px) {
-  .swiper-slide {
-    margin-left: 0px !important;
-  }
-} */
