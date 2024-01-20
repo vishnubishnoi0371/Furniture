@@ -49,7 +49,7 @@ const Test = () => {
         <h2 className="text-[#243040] max-w-[436px]  font-poppines text-2xl text-center md:text-start  sm:text-[35px] leading-normal font-bold pt-3 sm:pt-6">
           Testimonial
         </h2>
-        <div className="pt-[50px]">
+        <div className="pt-5 md:pt-[50px]">
           <Slider
             {...settings}
             centerMode={true}

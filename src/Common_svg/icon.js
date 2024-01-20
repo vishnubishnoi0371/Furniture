@@ -138,6 +138,7 @@ export const Star = () => {
 export const Search = () => {
   return (
     <svg
+      className="group-hover:fill-[#BD7D41] duration-300 transition-all ease-linear"
       width="19"
       height="19"
       viewBox="0 0 19 19"
@@ -233,7 +234,6 @@ export const Cross = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-  
       fill="white"
       class="bi bi-x-circle-fill"
       viewBox="0 0 16 16"

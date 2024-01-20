@@ -6,7 +6,6 @@ import My_footer from "../Components/My_footer";
 const About = () => {
   return <div>
       <Backtotop />
-      {/* <Preload/> */}
       <My_nav />
       <Ourstory />
       <My_footer />

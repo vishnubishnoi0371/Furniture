@@ -3,7 +3,7 @@ import Backtotop from "../Components/Backtotop";
 import My_nav from "../Components/My_nav";
 import Ourstory from "../Components/Ourstory";
 import Trending from "../Components/Trending";
-import Our_product from "../Components/Our_product";
+import Prodct from "../Components/Prodct";
 import Wodden from "../Components/Wodden";
 import Latest_deal from "../Components/Latest_deal";
 import Festival_offer from "../Components/Festival_offer";
@@ -18,7 +18,7 @@ const Home = () => {
       <My_nav />
       <Ourstory />
       <Trending />
-      <Our_product />
+      <Prodct/>
       <Wodden />
       <Latest_deal />
       <Festival_offer />

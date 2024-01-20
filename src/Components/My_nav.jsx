@@ -24,7 +24,7 @@ const My_nav = () => {
   }
   return (
     <div className="sm:pb-[67px]">
-      <div className="bg-[url('./Assets/Images/bg_hero.webp')]  bg-no-repeat md:bg-100% h-[600px] md:h-[810px] bg-cover bg-right lg:h-[930px]  overflow-hidden">
+      <div className="bg-[url('./Assets/Images/bg_hero.webp')]  bg-no-repeat md:bg-100% min-h-screen h-[600px] md:h-[810px] bg-cover bg-right lg:h-[930px]  overflow-hidden">
         <div className="max-w-[1340px] relative px-3 mx-auto ">
           <div className="flex justify-between py-[20px]">
             <div className="flex items-center cursor-pointer gap-[7px]">
@@ -82,6 +82,7 @@ const My_nav = () => {
                     type="search"
                     placeholder="Search"
                     id="abc"
+                    // value={Query}
                     className={`${
                       data === "srch"
                         ? "w-0  duration-600"
@@ -90,22 +91,10 @@ const My_nav = () => {
                   />
                 </div>
                 <span onClick={InputImg} className="group  cursor-pointer ps-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="19"
-                    height="19"
-                    viewBox="0 0 19 19"
-                    fill="none"
-                  >
-                    <path
-                      className="group-hover:fill-[#BD7D41] duration-300 transition-all ease-linear"
-                      d="M8 16C9.77498 15.9996 11.4988 15.4054 12.897 14.312L17.293 18.708L18.707 17.294L14.311 12.898C15.405 11.4997 15.9996 9.77544 16 8C16 3.589 12.411 0 8 0C3.589 0 0 3.589 0 8C0 12.411 3.589 16 8 16ZM8 2C11.309 2 14 4.691 14 8C14 11.309 11.309 14 8 14C4.691 14 2 11.309 2 8C2 4.691 4.691 2 8 2Z"
-                      fill="white"
-                    />
-                  </svg>
+                  <Search />
                 </span>
               </div>
-            
+
               <a href="#" className="pe-16">
                 <Search_2 />
               </a>

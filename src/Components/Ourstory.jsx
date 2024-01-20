@@ -28,16 +28,22 @@ const Ourstory = () => {
   return (
     <div>
       {modl && (
-        <div className="backdrop-blur-md flex justify-center items-center h-screen top-[0] w-screen fixed left-0 z-20 ">
+        <div
+          onClick={close}
+          className="backdrop-blur-md flex justify-center items-center h-screen top-[0] w-screen fixed left-0 z-20 "
+        >
           <div className="md:max-w-[360px] ">
             <div className={`${modl ? "" : ""} `}>
               <div className="relative flex justify-center">
+               
                 <video
+                  className=" max-w-[400px] max-h-[400px] w-full h-full"
                   autoPlay
-                  loop
-                  className="h-[50%] w-[50%] lg:h-[100%] lg:w-[100%] object-cover"
-                  src={vdo}
-                ></video>
+                  controls
+                >
+                  <source src={vdo} type="video/mp4" />
+                </video>
+
                 <button
                   onClick={close}
                   className="absolute fill-[#BD7D41] w-[26px] h-[26px] lg:w-[36px] lg:h-[36px] top-1 right-[26%] lg:right-1"
@@ -71,7 +77,7 @@ const Ourstory = () => {
                   <span className="w-[66px] h-[1px] bg-[#243040]"></span>
                   <div
                     onClick={open}
-                    className="w-[45px] rounded-full h-[45px] flex justify-center items-center bg-[#BD7D41]"
+                    className="w-[45px] rounded-full h-[45px] cursor-pointer flex justify-center items-center bg-[#BD7D41]"
                   >
                     <Video_icon />
                   </div>

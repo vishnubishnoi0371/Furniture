@@ -61,7 +61,8 @@ const My_footer = () => {
                   data-aos-duration="2000"
                   className="w-1/2 xxs:w-1/3  px-3"
                 >
-                  <p className="text-white text-nowrap text-[14px] font-medium font-ff-rob not-italic leading-normal uppercase before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0 relative">
+                  <p className="text-white text-nowrap text-[14px] font-medium font-ff-rob not-italic leading-normal uppercase relative after:absolute after:bg-[#BD7D41] after:max-w-[130px] after:left-[0] after:bottom-[-4px] after:w-full  after:duration-300 after:h-[1px]
+  ">
                     ABOUT STORE
                   </p>
                   <ul className="ps-0 pt-3 md:pt-[19px]">
@@ -112,7 +113,7 @@ const My_footer = () => {
                   data-aos-duration="2000"
                   className="w-1/2 xxs:w-1/3  px-3"
                 >
-                  <p className="text-white list-none text-[14px] font-medium font-ff-rob not-italic leading-normal uppercase before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0 relative">
+                  <p className="text-white list-none text-[14px] font-medium font-ff-rob not-italic leading-normal uppercase relative after:absolute after:bg-[#BD7D41] after:max-w-[130px] after:left-[0] after:bottom-[-4px] after:w-full  after:duration-300 after:h-[1px]">
                     BRANDS
                   </p>
                   <ul className="ps-0 pt-3  md:pt-[19px]">
@@ -163,7 +164,7 @@ const My_footer = () => {
                   data-aos-duration="2000"
                   className="w-1/2 xxs:w-1/3  px-3"
                 >
-                  <p className="text-white pt-4 xxs:pt-0 text-[14px] font-medium font-ff-rob not-italic leading-normal uppercase before:absolute before:w-0 before:-bottom-1  before:right-full before:duration-500  before:h-[2px] before:bg-[#BD7D41] before:contents'' hover:before:w-full hover:before:right-0 relative">
+                  <p className="text-white pt-4 xxs:pt-0 text-[14px] font-medium font-ff-rob not-italic leading-normal uppercase relative after:absolute after:bg-[#BD7D41] after:max-w-[130px] after:left-[0] after:bottom-[-4px] after:w-full  after:duration-300 after:h-[1px]">
                     CATEGORIES{" "}
                   </p>
                   <ul className="ps-0 pt-3 md:pt-[19px]">

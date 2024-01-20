@@ -109,7 +109,7 @@ const Trending = () => {
   };
   return (
     <div className=" overflow-hidden">
-      <div className="bg-[#f7f7f8] md:mt-[60px] relative pt-[40px] pb-[98px]">
+      <div className="bg-[#f7f7f8] md:mt-[60px] relative  md:pt-[40px] pb-[98px]">
         <div className=" max-w-[500px] lg:max-w-[641px] xl:max-w-[741px] max-h-[317px] lg:max-h-[417px] w-full h-full absolute bg-gradient-to-r from-[#243040] to-[#8C939B] right-0 z-[0] top-[-16%] lg:top-[-24%] hidden 910:block"></div>
         <div className="max-w-[1590px]  px-3 910:ps-3 mx-auto 910:mx-0 910:ms-auto ">
           <div className="flex flex-row justify-center flex-wrap   -mx-3  relative">
