@@ -60,7 +60,7 @@ const Latest_deal = () => {
 
   return (
     <div className="xl:pt-[60px]">
-      <div className="max-w-[1340px]  px-3 mx-auto py-[50px]  ">
+      <div className="max-w-[1340px]  px-3 mx-auto py-[50px]  overflow-hidden">
         <div className="flex flex-col md:flex-row items-center justify-center 910:justify-start  gap-2 ">
           <span className="w-[95px] h-[1px] bg-black"></span>
           <p className="text-xl font-ff-pop font-normal not-italic leading-normal text-[#BD7D41]">
